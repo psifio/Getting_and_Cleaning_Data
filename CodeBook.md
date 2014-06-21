@@ -65,9 +65,15 @@ TRANSFORMATIONS
 =================
 Steps in run_analysis.R
 1. Train & test data are loaded from basedir(which should be set in the first line of the script)
+
 2. Activity labels and features are loaded
+
 3. Train and test rows are merged
+
 4. A new dataset is created restricted to mean and std observations 
+
 5. Descriptive activity names are used to name the activities in the data set
+
 6. We combine all data to single dataset and write to the file basedir/finalTotalData.txt
+
 7. A final tidy set is created with the averages of each variable for each activity and each subject and it is exported at basedir/finalAggregated.txt and basedir/finalAggregatedCSV.csv
