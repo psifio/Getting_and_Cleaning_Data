@@ -1,5 +1,5 @@
 #set base directory to read data
-basedir<-"C:/makisXPS/Rwork/UCI HAR Dataset"
+basedir<-"C:/Rwork/UCI HAR Dataset"
 
 #read data files
 data_subject_train <- read.table(paste0(basedir,"/train/subject_train.txt"), quote="\"")
