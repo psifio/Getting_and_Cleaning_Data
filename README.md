@@ -24,6 +24,6 @@ The script does the following:
 3) CodeBook.md:
 This file describes the variables, the data, and the transformations  to clean up the data 
 
-The originall dataset can be downloaded from:
+The original dataset can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
