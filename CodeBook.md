@@ -64,6 +64,7 @@ tBodyGyroJerkMean
 TRANSFORMATIONS
 =================
 Steps in run_analysis.R
+
 1. Train & test data are loaded from basedir(which should be set in the first line of the script)
 
 2. Activity labels and features are loaded
