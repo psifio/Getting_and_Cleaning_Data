@@ -10,6 +10,7 @@ data_subject_test <- read.table(paste0(basedir,"/test/subject_test.txt"), quote=
 data_X_test <- read.table(paste0(basedir,"/test/X_test.txt"), quote="\"")
 data_y_test <- read.table(paste0(basedir,"/test/y_test.txt"), quote="\"")
 
+#read features and activity labels
 data_features <- read.table(paste0(basedir,"/features.txt"), quote="\"")
 data_activity_labels <- read.table(paste0(basedir,"/activity_labels.txt"), quote="\"")
 
