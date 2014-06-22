@@ -43,7 +43,7 @@ write.table(finalTotalData, paste0(basedir,"/finalTotalData.txt"))
 require(data.table)
 require(reshape2)
 datatable<-data.table(finalTotalData)
-melted<-melt(dt, id=c("SubjectID", "Activity"))
+melted<-melt(datatable, id=c("SubjectID", "Activity"))
 aggregated<-dcast(melted, SubjectID + Activity ~ variable, fun.aggregate=mean)
 
 #export affregated set to both txt and csv
